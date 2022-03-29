@@ -1,4 +1,4 @@
-FROM  httpd:alpine3.15
-COPY index.html /var/www/html/
-COPY thankyou.html /var/www/html/
+FROM  httpd:2.4.53
+COPY * /var/www/html/
+
 EXPOSE 80
